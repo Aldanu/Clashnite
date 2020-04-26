@@ -40,6 +40,7 @@ public class PlayerMovement : MonoBehaviour
             _spriteRenderer.flipX = false;
         }
         
+        Debug.Log("gg");
         
         if (!_isGrounded) return;
         if (!Input.GetKeyDown(KeyCode.Space)) return;
